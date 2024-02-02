@@ -1,10 +1,69 @@
 # appBancaria
 
-* {
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="C:\Users\josmartinez\Documents\PANTALLAFIGMA\styles\styles.css" />
+<html lang="es">
+  
+  <head>
+		<meta charset="utf-8" />
+
+		<div class="background">
+      <title>Personal Banking | Crear Cuenta</title>
+    </div>
+
+	</head>
+  
+  <body>
+
+    <section class="container">
+
+      <section class="lateral">
+
+        <img class="logo" src="../assets/logo_blanco.png" alt="logo_blanco">
+
+        <h1 class="bienvenida">Te damos la bienvenida al portal Personal Banking</h1>
+
+        <footer class="black_side">¿Ya tienes una cuenta? <a class="login" href="https://www.google.com">
+          Iniciar sesión</a>
+        </footer>
+          
+      </section>
+
+      <form class="formulario">
+
+          <!--<h1 class="titulo">Crear <span>Cuenta</span></h1>
+
+          <input class="nombre" type="text" placeholder="Ingresa tus nombres" />
+
+          <input type="text" placeholder="Ingresa tus apellidos" />
+
+          <input type="text" placeholder="Ingresa tu DNI" />
+
+          <input type="text" placeholder="Ingresa tu fecha de nacimiento" />
+
+          <input type="password" placeholder="Ingresa tu nueva contraseña" />
+
+          <input type="password" placeholder="Repite la contraseña que ingresaste" />
+
+          <button type="submit" class="boton">Crear cuenta</button>-->
+
+      </form>
+
+    </section>
+      
+    
+  </body>
+
+
+  CSS
+
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;;
 }
+
 /*Fuente de toda la ventana*/
   html {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
@@ -43,9 +102,10 @@
   .bienvenida {
     color: #ffff;
     grid-row: 5 / 7;
-    margin: 3vw;
-    width: 20vw;
-    font-size: 90px;
+    margin: 5vw;
+    width: auto;
+    font-size: 100px;
+    font-style: Poppins;
     
   }
 
@@ -104,66 +164,3 @@
     color: #00abeb;
   }
   */
-
-
-
-
-  HTML
-  <!DOCTYPE html>
-
-<link rel="stylesheet" href="C:\Users\josmartinez\Documents\PANTALLAFIGMA\styles\styles.css" />
-<html lang="es">
-  
-  <head>
-		<meta charset="utf-8" />
-
-		<div class="background">
-      <title>Personal Banking | Crear Cuenta</title>
-    </div>
-
-	</head>
-  
-  <body>
-
-    <section class="container">
-
-      <section class="lateral">
-
-        <div class="logo">
-          <img src="../assets/logo_blanco.png" alt="logo_blanco">
-        </div>
-
-        <div class="bienvenida">
-          <h1>Te damos la bienvenida al portal Personal Banking</h1>
-        </div>
-
-        <footer class="black_side">¿Ya tienes una cuenta? <a class="login" href="https://www.google.com">
-          Iniciar sesión</a>
-        </footer>
-          
-      </section>
-
-      <form class="formulario">
-
-          <!--<h1 class="titulo">Crear <span>Cuenta</span></h1>
-
-          <input class="nombre" type="text" placeholder="Ingresa tus nombres" />
-
-          <input type="text" placeholder="Ingresa tus apellidos" />
-
-          <input type="text" placeholder="Ingresa tu DNI" />
-
-          <input type="text" placeholder="Ingresa tu fecha de nacimiento" />
-
-          <input type="password" placeholder="Ingresa tu nueva contraseña" />
-
-          <input type="password" placeholder="Repite la contraseña que ingresaste" />
-
-          <button type="submit" class="boton">Crear cuenta</button>-->
-
-      </form>
-
-    </section>
-      
-    
-  </body>
